@@ -1,0 +1,70 @@
+/* src/styles/WorkoutTracker.css */
+.workout-tracker {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #007bff;
+  }
+  
+  .workout-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  select, input {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .workout-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .workout-list li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+  .workout-icon {
+    font-size: 2.5rem;
+    color: #ff6f61;
+    margin-right: 10px;
+  }
+
+  .workout-list button {
+    background-color: #ff4d4d;
+    color: white;
+  }
+  
